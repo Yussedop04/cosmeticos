@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Maquillaje/compra-online</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">SER-TÚ</p>
+            <nav>
+                <a href="#Inicio">INICIO</a>
+                <a href="#Producto">PRODUCTOS</a>
+                
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <h1>50% D/TO<BR> EN TODA LA TIENDA</h1>
+            <H4>¡Envio gratis con tú primera compra!</H4>
+        <button onclick="redirigir()">REGISTRATE</button>
+
+
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <h1>Nuestros Productos</h1>
+            <div class="img-container"></div>
+                <div class="texto">
+                    <h2>FILTRAR POR PREFERENCIA</h2>
+                    <label for="#Producto">Categoría:</label>
+                    <select id="categoria" onchange="filtrarProductos()">
+                        <option value="todos">Todos</option>
+                        <option value="categoria1">Ojos</option>
+                        <option value="categoria2">Rostro</option>
+                        <option value="categoria3">Labios</option>
+                        <option value="categoria4">Pestañas</option>
+                        <option value="categoria5">cejas</option>
+                        <option value="categoria6">Uñas</option>
+                        </select>
+
+                        <h2>Productos</h2>
+                        <div class="producto categoria1">Sombras</div>
+                        <div class="producto categoria1">Mascara para pestañas</div>
+                        <div class="producto categoria1">Delineador</div>
+                        <div class="producto categoria1">Risador de Pestañas</div>
+                        <div class="producto categoria1">Primer-Ojos</div>
+                        <div class="producto categoria1">Set-cejas perfectas</div>
+                        <div class="producto categoria2">Bases</div>
+                        <div class="producto categoria2">Polvos Compacto</div>
+                        <div class="producto categoria2">Primer</div>
+                        <div class="producto categoria2">Set-Piel Radiante</div>
+                        <div class="producto categoria3">Labiales</div>
+                        <div class="producto categoria3">Hidratadores de labios</div>
+                        <div class="producto categoria3">Lapiz delineador</div>
+                    
+                        <!-- Agrega aquí más productos -->
+            </div>
+         </div>
+    </section>
+
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>CONOCE NUESTRAS LINEAS DE PRODUCTOS</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Linea EcoFrienly</h3>
+                    <p>Esta linea cuenta con los productos mas eco-amigables tanto para el medio ambiente como para tú piel</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Linea a prueba de todo</h3>
+                    <p>Productos con la mejor cobertura del mercado, siempre pensando en el bienestar de tú piel pero con la cobertura que necesitas para un día de nunca acabar.</p>
+                    <button>+ Info</button>
+                </div>
+                <div class="carta">
+                    <h3>Linea Profesional</h3>
+                    <p>Esta linea está pensada para esas personas que necesitan un maquillaje con la mejor calidad, tanto para eventos como para maquillajes más complejos con alta o cobertura superior.</p>
+                    <button>+ Info</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <!--ampersand-->
+            <p>&copy;Productos hechos con amor</p>
+        </div>
+    </footer>
+</body>
+</html>
